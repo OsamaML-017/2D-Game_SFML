@@ -50,12 +50,18 @@ void Player::update(float deltaTime)
 			faceRight = true;
 		}
 		else {
-			faceRight = false;
+			faceRight = false;	
 		}
 	}
 	animation.update(row, deltaTime, faceRight);
 	body.setTextureRect(animation.uvGrid);
 	body.move(velocity*deltaTime);
+}
+
+void Player::deathUpdate(int row, float deltaTime)
+{
+	animation.update(row, deltaTime, faceRight);
+	body.setTextureRect(animation.uvGrid);
 }
 
 void Player::Draw(sf::RenderWindow& window)

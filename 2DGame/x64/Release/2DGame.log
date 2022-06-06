@@ -1,0 +1,29 @@
+﻿  2DGame.cpp
+C:\Users\osama\source\repos\2DGame\2DGame\2DGame.cpp(12,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\osama\source\repos\2DGame\2DGame\2DGame.cpp(12,30): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Animation.cpp
+C:\Users\osama\source\repos\2DGame\2DGame\Animation.cpp(8,30): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\osama\source\repos\2DGame\2DGame\Animation.cpp(9,32): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  GameFunc.cpp
+C:\Users\osama\source\repos\2DGame\2DGame\GameFunc.cpp(33,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\osama\source\repos\2DGame\2DGame\GameFunc.cpp(53,114): warning C4305: 'argument': truncation from 'double' to 'float'
+  Player.cpp
+  Traps.cpp
+C:\Users\osama\source\repos\2DGame\2DGame\Traps.cpp(16,68): error C2761: 'void Traps::Update(int,float,bool)': redeclaration of member is not allowed
+C:\Users\osama\source\repos\2DGame\2DGame\Traps.cpp(17,1): error C2447: '{': missing function header (old-style formal list?)

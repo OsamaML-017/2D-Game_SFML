@@ -9,6 +9,7 @@ public:
 	Player(sf::Texture* texture, sf::Vector2u imageCount, float shiftTime,float speed,float jumpHeight,sf::Vector2f size);
 
 	void update(float deltaTime);
+	void deathUpdate(int row, float deltaTime);
 	void Draw(sf::RenderWindow& window);
 	sf::Vector2f getPosition();
 	void onCollision(sf::Vector2f direction);

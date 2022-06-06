@@ -153,6 +153,7 @@
     <ClCompile Include="Obstacles.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Tilemap.cpp" />
+    <ClCompile Include="Traps.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
@@ -162,6 +163,7 @@
     <ClInclude Include="Obstacles.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Tilemap.h" />
+    <ClInclude Include="Traps.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

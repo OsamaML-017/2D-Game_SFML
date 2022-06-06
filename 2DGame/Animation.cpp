@@ -5,12 +5,12 @@ Animation::Animation(sf::Texture* texture, sf::Vector2u imageCount, float shiftT
 	this->shiftTime = shiftTime;
 
 	sf::Vector2u textureSize=texture->getSize();
-	//sf::Vector2u imageSize;
 	uvGrid.width = textureSize.x/ float(imageCount.x);
 	uvGrid.height = textureSize.y / float(imageCount.y);
 
 	totalTime = 0.0f;
 	currentCell.x = 0;
+
 }
 
 void Animation::update(int row, float deltaTime,bool faceRight) {

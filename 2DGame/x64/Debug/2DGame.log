@@ -1,3 +1,6 @@
 ﻿  GameFunc.cpp
-C:\Users\osama\source\repos\2DGame\2DGame\GameFunc.cpp(27,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\osama\source\repos\2DGame\2DGame\GameFunc.cpp(41,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\osama\source\repos\2DGame\2DGame\GameFunc.cpp(62,122): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\osama\source\repos\2DGame\2DGame\GameFunc.cpp(64,122): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\osama\source\repos\2DGame\2DGame\GameFunc.cpp(65,123): warning C4305: 'argument': truncation from 'double' to 'float'
   2DGame.vcxproj -> C:\Users\osama\source\repos\2DGame\x64\Debug\2DGame.exe
